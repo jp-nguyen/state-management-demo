@@ -4,13 +4,13 @@ import { Container, Text, Button } from '../assets/StyledComponents';
 const HookComponent = () => {
   const [count, setCount] = useState(0);
 
-  console.log('render')
+  console.log('hook-render')
 
   useEffect(() => {
     if (count === 0)
-      console.log('mounted');
+      console.log('hook-mounted');
     else
-      console.log('update');
+      console.log('hook-update');
   }, [count]);
 
   function incrementCount() {

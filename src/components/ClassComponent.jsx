@@ -9,19 +9,19 @@ class ClassComponent extends Component {
       count: 0
     };
 
-    console.log('constructor');
+    console.log('class-constructor');
   }
 
   componentDidMount() {
-    console.log('mounted');
+    console.log('class-mounted');
   }
 
   componentDidUpdate() {
-    console.log('update');
+    console.log('class-update');
   }
 
   componentWillUnmount() {
-    console.log('unmounting');
+    console.log('class-unmounting');
   }
 
   incrementCount = () => {
@@ -30,7 +30,7 @@ class ClassComponent extends Component {
   }
 
   render() {
-    console.log('render');
+    console.log('class-render');
 
     const { count } = this.state;
 
