@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Text, Button } from '../assets/StyledComponents';
+import { Container, Text, Button } from '../../assets/StyledComponents';
 
 class ClassComponent extends Component {
   constructor(props) {

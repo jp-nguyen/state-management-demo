@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Text, Button } from '../assets/StyledComponents';
+import { Container, Text, Button } from '../../assets/StyledComponents';
 
 const HookComponent = () => {
   const [count, setCount] = useState(0);
